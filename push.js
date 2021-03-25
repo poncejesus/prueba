@@ -11,6 +11,9 @@ let vapidKeys ={
     vapidKeys.privateKey
     );
 
-  let sub = {};
-  
-  push.sendNotification(sub, 'test message')
+  let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/ffRC9d91v3c:APA91bEQq7mIlh8AouU1O0GtyDE_kC90Y_Bgg1FfXJ8a5zwLfJN1MbiLzPMYTt9oDcbG7C1rKaIY6e0XZ-TMiEVY4ye36UWj1Ns2pamQHGz7IXowesKrWfjs3Py69vOCQdvwsmv1NJpb",
+  "expirationTime":null,
+  "keys":{"p256dh":"BI3tIfHarj_z_hh2844481Tn1DU0lbftmVegwhaQ7nG0uWxlZ9vujhG_MPaXzc89Xf7IoQvDICaFfo7CPlt0v5Q",
+  "auth":"swxc1-ClVyfp_1lsbwkVRA"}
+};
+
