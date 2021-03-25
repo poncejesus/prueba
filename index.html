@@ -19,7 +19,7 @@ addEventListener('load', async ()=>{
 
 async function subscribe(){
     let sw = await navigator.serviceWorker.ready;
-    let push = await sw.pushManager.suscribe({
+    let push = await sw.pushManager.subscribe({
         userVisibleOnly: true,
     applicationServiceKey:'BAzS1GfHLHEQM6F3yYjmXjqDjas35i2aI6Tq_w5yXS9d8zZ-Y4KaOJxZT7zLeWIj9L3Du-bPQMlT_En3O_FXbno'
     })
