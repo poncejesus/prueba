@@ -17,7 +17,7 @@ addEventListener('load', async ()=>{
     console.log(sw)
 })
 
-async function suscribe(){
+async function subscribe(){
     let sw = await navigator.serviceWorker.ready;
     let push = await sw.pushManager.suscribe({
         userVisibleOnly: true,
