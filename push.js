@@ -1,11 +1,15 @@
-var push = require('web-push')
+var push = require('web-push');
 
 let vapidKeys ={
-    publicKey: 'BAzS1GfHLHEQM6F3yYjmXjqDjas35i2aI6Tq_w5yXS9d8zZ-Y4KaOJxZT7zLeWIj9L3Du-bPQMlT_En3O_FXbno',
-    privateKey: 'yq4mK060fwQznuUj-G7UTwckDj_dQoaBwSih-1wlgKg'
-  }
+    publicKey: 'BJBSBhjquKl_pJU7u0YCFO6r96Eh22WGV2Q7h3s6Au29obZD4BbE82Ucf8jtbotPCJYOk_RIuylykGP5PyHN1SY',
+    privateKey: 'gZTIue5TXNqlgQeN2UzurKrTSzUTP-Ef93w1wQTRcGU'
+  };
 
-  push.setVapidDetails('mailto:jesusoncevqz14@gmail.com', vapidKeys.publicKey, vapidKeys.privateKey)
+  push.setVapidDetails(
+      'mailto:jesusoncevqz14@gmail.com', 
+    vapidKeys.publicKey, 
+    vapidKeys.privateKey
+    );
 
   let sub = {};
   
